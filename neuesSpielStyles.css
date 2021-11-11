@@ -1,0 +1,212 @@
+/* Color-Plate URL 
+https://coolors.co/04151f-183a37-efd6ac-183a37-432534*/
+* {
+    box-sizing: border-box;
+    background-color: #efd6ac;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  /*    NAV    */
+
+  /* Style the side navigation */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #04151f;
+    overflow-x: hidden;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenavAction {
+    background-color: #04151f;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  #sidenavZurueck {
+    margin-top: 90%;
+  }
+
+  .sidenav button {
+    border: none;
+    background-color: #04151f;
+    color: white;
+    text-align: left;
+    font-size: 100%;
+    padding: 32px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+  }
+
+  .sidenav button:hover {
+    background-color: #efd6ac;
+    color: #04151f;
+  }
+  
+  /* Change color on hover */
+  .sidenavAction:hover {
+    background-color: #efd6ac;
+    color: #04151f;
+  }
+
+
+   /*    CONTENT    */
+  
+  /* Style the content */
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+    background-color: #efd6ac;
+    margin-bottom: 30%;
+  }
+
+  .footer h2 {
+    color: white;
+  }
+
+  #punkte {
+    color: #183a37;
+  }
+
+  table, th, td {
+    border: 10px solid #efd6ac;
+  }
+ 
+  th, td {
+    background-color: #432534;
+    color: white;
+    font-size: 24px;
+  }
+
+  #tableRow th {
+    background-color: #432534;
+  }
+
+  #punkte button {
+    border: none;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: #432534;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .rundeBeenden {
+    float: right;
+    margin-right: 70%;
+  }
+
+  .rundeBeenden button {
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #432534;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+  }
+
+  .content button:hover {
+    font-size: 20px;
+    background-color: #c44900;
+  }
+
+
+
+
+
+   /*    FOOTER    */
+
+  .footer {
+    margin-left: 200px;
+    padding: 20px;
+    color: white;
+    background-color: #04151f;
+  }
+
+  .footer h2{
+    background-color: #04151f
+  }
+
+  .footer button {
+    background-color: #432534;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+
+  .footer button:hover {
+    background-color: #c44900;
+    color: white;
+    font-size: 24px;
+  }
+
+  #deletePlayer {
+    float: right;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    size: 18px;
+    border-radius: 0%;
+  }
+
+  #deletePlayer:hover {
+    background-color: white;
+    color: black;
+    size: 24px;
+  }
+/*
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #efd6ac;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+     Position the tooltip text 
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+     Fade in tooltip 
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+     Tooltip arrow 
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+   Show the tooltip text when you mouse over the tooltip container 
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  */

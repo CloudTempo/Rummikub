@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spiel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="neuesSpielStyles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head> 
+<body>
+    <div class="sidenav">
+        <button type="button" onclick="startGame()">Start</button>
+        <a href="main.html" class="sidenavAction" id="sidenavZurueck">Zurück</a>
+        <a href="#" class="sidenavAction">Spiel Beenden</a>
+        <span class="sidenavAction">Spiel Abbrechen</span>
+    </div>
+      
+    <div class="content">
+        <h2 id="punkteStand" style="color: #432534">Punktestand</h2>
+        <div>
+            <table id="punkte">
+                <tr id="tableRow">
+                    
+                </tr>
+            </table>
+        </div>
+        <div class="rundeBeenden">
+            <button id="rundeBeenden" onclick="rundeBeenden()" disabled>Runde beenden</button>
+        </div>
+       
+    </div>
+
+    <div class="footer">
+        <h2>Add Player</h2>
+        <button type="button" id="Maria" onclick="addToGame('Omi')">Omi</button>
+        <button type="button" id="Joshua"  onclick="addToGame('Joshua')">Joshua</button>
+        <button type="button" id="Klaus"  onclick="addToGame('Papi')">Papi</button>
+        <button type="button" id="Fuko"  onclick="addToGame('Fupi')">Fupi</button>
+        <button type="button" id="Stephanie"  onclick="addToGame('Steffi')">Peffi</button>
+        <button type="button" id="Adriana"  onclick="addToGame('Adriana')">Adriana</button>
+        <button type="button" id="Faris"  onclick="addToGame('Faris')">Faris</button>
+        <button type="button" id="Pia"  onclick="addToGame('Pia')">QueenPi</button>
+        <button type="button" id="Karen"  onclick="addToGame('Karen')">Karen</button>
+        <button type="button" id="Maia"  onclick="addToGame('Maia')">Maia</button>
+
+        <button type="button" id="deletePlayer" onclick="removeAddedPlayer()">
+            LÖSCHEN
+            <!--<div class="tooltip">
+                
+                <span class="tooltiptext">Zuletzt hinzugefügten Spieler löschen</span>
+            </div>-->
+            
+        </button>
+    </div>
+</body>
+</html>

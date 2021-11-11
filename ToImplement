@@ -1,0 +1,16 @@
+Feature
+- Eine Stopuhr, die die Länge des Spiels anzeigt.
+- disappearing nav container. (kann er oben links dann aufgerufen werden?
+
+Important!
+- Wenn das Spiel angefangen hat, müssen die footer button allesamt  
+  'disabled' gemacht werden. Nur wenn das Spiel beendet wurde.
+
+- Vor dem Neuladen der Seite warnen
+  *{onmouseleave} ,https://www.w3schools.com/jsref/event_onmouseleave.asp
+- Ne Runde kann man nicht beenden, wenn sie noch nicht angefangen hat
+
+Aufräumen
+- Es gibt manche tags die in CSS zu viel referenziert worden sind. 
+  Da kann man bestimmt ein paar line code sparen. Allerdings auf die 
+  Hierarchy achten bitte!
